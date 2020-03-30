@@ -13,7 +13,6 @@ public class CrmIdServiceImpl implements CrmIdService {
 		List<CrmIdEntity> list = new ArrayList<CrmIdEntity>();
 		list.add(new CrmIdEntity(12124L,f_corp_id));
 		list.add(new CrmIdEntity(12125L,f_corp_id));
-		int a = 10 / 0;
 		return list;
 	}
 
